@@ -12,10 +12,10 @@ li:last-child > span {
     color: white;
 }
 
-li:nth-child(even) {
+li:nth-child(even) > span {
     margin: 16px;
 }
 
-div[class="paragraphs"]:nth-child(odd) > p {
+div.paragraphs > p:nth-of-type(odd){
     background-color: gray;
 }
