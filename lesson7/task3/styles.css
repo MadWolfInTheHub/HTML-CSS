@@ -1,6 +1,10 @@
 p.theory::first-letter {
     font-size: 36px;
     margin-left: 16px;
+    color: orange;
+}
+p.theory::first-line {
+    font-size: 24px;
 }
 
 p::first-letter {
