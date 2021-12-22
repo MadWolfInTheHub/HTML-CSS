@@ -15,3 +15,12 @@ section[class="to-be-learned"] ol{
 #special2 ~ li {
     font-size: 24px;
 }
+
+
+section[class="already-learned"] code {
+    background-color: orange;
+}
+
+section[class="to-be-learned"] code{
+    background-color: green;
+}
