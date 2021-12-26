@@ -1,12 +1,12 @@
 div {
     border: 2px solid black;
-    margin: 50px;
     padding: 50px;
     box-sizing: content-box;
 }
 
 .blue { 
    background-color: blue;
+   margin: 50px;
 }
 
 .yellow {
@@ -19,5 +19,4 @@ div {
 
 .pink {
     background-color: pink;
-    padding: 100px;
 }
