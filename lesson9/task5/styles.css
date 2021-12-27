@@ -9,6 +9,9 @@ li {
 .header {
     background-color: darkturquoise;
     height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .navigation {
@@ -37,6 +40,7 @@ li {
     width: 200px;
     background-color: aquamarine;  
     margin: calc(50% - 100px);
+    margin-top: calc(50% - 200px);
 }
 
 .ear_left, .ear_right {
