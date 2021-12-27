@@ -40,7 +40,7 @@ li {
     width: 200px;
     background-color: aquamarine;  
     margin: calc(50% - 100px);
-    margin-top: calc(50% - 160px);
+    margin-top: calc(50% - 150px);
 }
 
 .ear_left, .ear_right {
