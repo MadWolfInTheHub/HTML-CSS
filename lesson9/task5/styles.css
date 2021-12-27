@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+li {
+    list-style-type: none;
+}
+
 .header {
     background-color: darkturquoise;
     height: 40px;
@@ -30,8 +35,7 @@
 .head {
     height: 200px;
     width: 200px;
-    background-color: aqua;  
-    position: relative;
+    background-color: aquamarine;  
     margin: calc(50% - 100px);
 }
 
@@ -41,14 +45,17 @@
     position: relative;
     background-color: brown;
     top: -60px;
+    
 }
 
 .ear_left {
     float: left;
+    left: -40px;
 }
 
 .ear_right {
     float: right;
+    right: -40px;
 }
 
 .eye_left, .eye_right {
@@ -58,6 +65,7 @@
     background-color: grey;
     position: relative;
     margin-top: 80px;
+   
 
 }
 
@@ -68,4 +76,5 @@
 
 .eye_right {
     float: right;
+    
 }
