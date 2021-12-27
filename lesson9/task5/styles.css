@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+}
+
+.navigation {
+    height: 40px;
+}
+.nav-list {
+    margin: 0px;
+}
+
+.nav-item {
+    float: left;
+    margin-left: 16px;
+    color: white;
+    line-height: calc(40px);
+    
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+    padding: 50%;
+}
+
+.head {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;  
+    position: relative;
+    margin: calc(50% - 100px);
+}
+
+.ear_left, .ear_right {
+    height: 60px;
+    width: 40px;
+    position: relative;
+    background-color: brown;
+    top: -60px;
+}
+
+.ear_left {
+    float: left;
+}
+
+.ear_right {
+    float: right;
+}
+
+.eye_left, .eye_right {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.eye_left {
+    float: left;
+    
+}
+
+.eye_right {
+    float: right;
+}
