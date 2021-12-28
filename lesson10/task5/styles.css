@@ -1,21 +1,16 @@
 * {
     box-sizing: border-box;
-}
-header {
+  }
+  h1 {
+    text-align: center;
+  }
+  .articles-list {
     display: flex;
-    justify-content: center;
-}
-
-.articles-list {
-    display: flex;
-    flex-wrap: wrap; 
-}
-.article {
-    margin: 8px;
+    flex-wrap: wrap;
+  }
+  .article {
+    flex: 1 0 300px;
     padding: 16px;
+    margin: 8px;
     background-color: bisque;
-    flex-basis: 300px;
-    flex-grow: 1;
-    flex-shrink: 0;
-}
-
+  }
