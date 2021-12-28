@@ -53,7 +53,8 @@
 .sidebar_header {
     display: flex;
     justify-content: center;
-    margin: 16px 0px 16px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .sidebar_list {
