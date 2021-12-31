@@ -2,14 +2,18 @@
     box-sizing: border-box;
 } 
 
+.gallery {
+    display: flex;
+}
+
 .image {
-    display: inline-block;
     margin: 16px;
-    height: 200px;
-    width: 200px;
+    min-height: 200px;
+    min-width: 200px;
     border: 1px dotted #808080;
     background-color: white;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
 }
