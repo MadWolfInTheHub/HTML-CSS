@@ -2,13 +2,8 @@
     box-sizing: border-box;
 } 
 
-.gallery {
-    display: flex;
-    
-
-}
-
 .image {
+    display: inline-block;
     margin: 16px;
     height: 200px;
     width: 200px;
