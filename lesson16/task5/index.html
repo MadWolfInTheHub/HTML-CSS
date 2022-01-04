@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="big-form">
+        <div>
+            <input class="big-form-input" type="text"
+            name="primaryLanguage"
+            value="HTML"
+            disabled>
+        </div>
+        <div>
+            <input class="big-form-input" type="checkbox" 
+            name="agree" 
+            unchecked disabled> 
+        </div>
+        <div>
+            <input class="big-form-input" type="checkbox" name="like" checked readonly>
+        </div>
+        <div>
+            <input class="big-form-input" type="color" name="favoriteColor" value="#ff7f50">
+        </div>
+        <div>
+            <input class="big-form-input" type="date" name="birthDate" value="2021-01-02">
+        </div>
+        <div>
+            <input class="big-form-input" type="datetime-local" name="birthtime" value="2024-10-04T13:02">
+        </div>
+        <div>
+            <input class="big-form-input" type="email" name="email" placeholder="example@domain.com">
+        </div>
+        <div>
+            <input class="big-form-input" type="file" name="avatar">
+        </div>
+        <div>
+            <input class="big-form-input" type="month" name="startLearning" value="2020-01">
+        </div>
+        <div>
+            <input class="big-form-input" type="number" name="favoriteNumber" value="17">
+        </div>
+        <div>
+            <textarea class="big-form-input" name="story" maxlength="30" rows="5" placeholder="A long time ago..."></textarea>
+        </div>
+        <div>
+            <input class="big-form-input" type="password" value="secret">
+        </div>
+        <div class="languages">
+            <label>
+                <input type="radio" name="language">
+                HTML
+            </label>
+            <label>
+                <input type="radio" name="language">
+                CSS
+            </label>
+            <label>
+                <input type="radio" name="language">
+                JavaScript
+            </label>
+        </div>
+        <div>
+            <input class="big-form-input" type="range" value="30">
+        </div>
+        <div>
+            <select class="big-form-input" name="framework" id="">
+                <option value="react">React</option>
+                <option value="jquery" selected>Jquery</option>
+                <option value="bootstrap"> Bootstrap</option>
+            </select>
+        </div>
+        <div>
+            <input class="big-form-input" type="time" name="lunchEnd" value="14:01">
+        </div>
+        <div>
+            <input class="big-form-input" type="url" name="birthWeek" value="20021-W51">
+        </div>
+        <div>
+            <button class="big-form-input" type="submit">Save</button>
+        </div>
+    </form>
+</body>
+</html>

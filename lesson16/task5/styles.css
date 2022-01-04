@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.big-form {
+    margin: 32px;
+}
+
+.big-form-input {
+    display: inline-block;
+    margin: 8px;
+}
+
+.languages {
+    margin: 8px;
+}
