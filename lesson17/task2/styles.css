@@ -16,9 +16,12 @@ table, td, th {
     text-align: right;
 }
 
+tr {
+    line-height: 40px;
+}
+
 td, th {
     padding: 4px;
-    line-height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
