@@ -4,10 +4,9 @@
 
 .raw {
     display: flex;
-    justify-content: space-between;
 }
 
-i {
+div {
     justify-content: space-around;
 }
 
