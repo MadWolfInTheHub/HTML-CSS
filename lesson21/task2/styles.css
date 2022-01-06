@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 18px;
-}
 main {
     min-height: 100vh;
 }
