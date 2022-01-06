@@ -40,7 +40,7 @@ body {
     display: flex;
     background-color: #808080;
     color: white;
-    height: 2em;
+    line-height: 2em;
     margin-bottom: 0.5em;
 }
 
