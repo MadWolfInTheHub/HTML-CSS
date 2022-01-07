@@ -4,16 +4,20 @@
 
 .nav {
     background-color: #ff7f50;
-    flex-grow: 1;
+    display: flex;
+    min-height: 200px;
 }
 
 .products {
     background-color: #006400;
-    flex-grow: 1;
+    display: flex;
+    min-height: 200px;
 }
 
 .news {
     background-color: #0ff;
+    display: flex;
+    min-height: 200px;
 }
 
 .text {
@@ -22,18 +26,20 @@
     padding: 8px;
     background-color: #faebd7;
     border-radius: 4px;
-}
-
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
+    margin: auto;
 }
 
 @media screen and (min-width: 600px) and (max-width:899px) {
     .second-container {
         display: flex;
+    }
+
+    .nav {
+        width: 50%;
+    }
+
+    .products {
+        width: 50%;
     }
 }
 
@@ -41,7 +47,14 @@ div {
     .second-container {
         display: flex;
         flex-direction: row;
-        flex-grow: 2;
+        width: 66.67%;
+    }
+    .nav {
+        width: 50%;
+    }
+
+    .products {
+        width: 50%;
     }
 
     .main-container {
@@ -50,6 +63,7 @@ div {
     }
 
     .news {
-        flex-grow: 1;
+        width: 33.33%;
     }
+
 }
