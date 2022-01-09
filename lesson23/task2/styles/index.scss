@@ -1,7 +1,7 @@
 @import "breakpoints.scss";
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -11,17 +11,23 @@ body {
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (orientation: landscape) {
     .container {
-        display: flex;
         flex-direction: row;
+        
     }
 }
     
 .square {
-    margin: 8px;
     height: 100px;
     width: 100px;
+    margin: 8px;
+  
     
     @include extra-small-screen {
         background-color: #ff7f50;
