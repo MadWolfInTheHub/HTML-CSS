@@ -14,7 +14,6 @@ html {
 }
 .header .menu {
   display: flex;
-  list-style-type: none;
   flex-direction: row;
   margin: 0;
   text-transform: uppercase;
