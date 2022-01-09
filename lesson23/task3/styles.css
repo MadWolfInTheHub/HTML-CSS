@@ -14,8 +14,9 @@ html {
 }
 .header .menu {
   display: flex;
+  list-style-type: none;
   flex-direction: row;
-  margin: 0 0 0 3em;
+  margin: 0;
   text-transform: uppercase;
 }
 .header .menu__item {
