@@ -1,3 +1,5 @@
+@import "layout.scss";
+
 * {
     box-sizing: border-box;
 }
@@ -29,7 +31,7 @@
     margin: auto;
 }
 
-@media screen and (min-width: 600px) and (max-width:899px) {
+@include medium-screen {
     .second-container {
         display: flex;
     }
@@ -43,7 +45,7 @@
     }
 }
 
-@media screen and (min-width:900px) {
+@include large-screen {
     .second-container {
         display: flex;
         flex-direction: row;
