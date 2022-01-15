@@ -87,6 +87,28 @@
                 margin-bottom: 0;
             }
         }
+
+        &:hover {
+            background-color: rgba(49, 65, 197, 1);
+            
+            .vacancy__title {
+                color: #ffffff;
+            }
+
+            .vacancy__location {
+                color: #ffffff;
+            }
+
+            .vacancy__arrow-container {
+                background-color: rgba(49, 65, 197, 1);
+            }            
+
+            .vacancy__arrow-rigth {
+                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+                
+            }
+            
+        }
     }
 
    &__detailes {
@@ -137,11 +159,10 @@
         align-items: center;
         justify-content: center;
         min-width: 50px;
-        background: #D5D4D5;
-    }
-    &__hiring:hover {
-        background-color: rgba(49, 65, 197, 1);
-        color: #ffffff;
+        background-color: #D5D4D5;
 
+        @include for-large-up {
+            background-color: #ffffff;
+        }
     }
 }

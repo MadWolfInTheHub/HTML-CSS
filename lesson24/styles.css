@@ -72,7 +72,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url(img/mobile-version/menu-button.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   display: inline-block;
 }
 .header .logo__description {
@@ -139,7 +139,7 @@
   font-weight: 700;
 }
 .navigation__arrow {
-  background-image: url(img/Arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   display: inline-block;
   height: 5px;
   width: 8px;
@@ -1050,6 +1050,21 @@
     margin-bottom: 0;
   }
 }
+.vacancy__hiring:hover {
+  background-color: #3141c5;
+}
+.vacancy__hiring:hover .vacancy__title {
+  color: #ffffff;
+}
+.vacancy__hiring:hover .vacancy__location {
+  color: #ffffff;
+}
+.vacancy__hiring:hover .vacancy__arrow-container {
+  background-color: #3141c5;
+}
+.vacancy__hiring:hover .vacancy__arrow-rigth {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+}
 .vacancy__detailes {
   width: 100%;
 }
@@ -1094,11 +1109,12 @@
   align-items: center;
   justify-content: center;
   min-width: 50px;
-  background: #D5D4D5;
+  background-color: #D5D4D5;
 }
-.vacancy__hiring:hover {
-  background-color: #3141c5;
-  color: #ffffff;
+@media screen and (min-width: 1400px) {
+  .vacancy__arrow-container {
+    background-color: #ffffff;
+  }
 }
 
 .order {
