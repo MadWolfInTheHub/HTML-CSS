@@ -10,12 +10,17 @@ html {
 
 }
 
+.page {
+    display: flex;
+    height: 100vh;
+}
 
 .pricelist {
+    margin: auto;
     padding: 115px 132px;
     max-width: 1440px;
     max-height: 1000px;
-    background-color: #000000;
+    background-color: #141b1c;
     display: flex;
 
 }
@@ -106,6 +111,7 @@ html {
         margin-top: 39px;
         width: 155px;
         height: 40px;
+        border: none;
         border-radius: 20px;
         font-size: 14px;
         line-height: 17px;
