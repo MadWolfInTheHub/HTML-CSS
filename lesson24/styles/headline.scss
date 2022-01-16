@@ -26,6 +26,10 @@
         line-height: 50px;
         letter-spacing: -0.3125px;
 
+        @include for-large-down {
+            margin-bottom: 24px;
+        }
+
         @include for-large-up {
             margin-top: 0;
             width: 754px;

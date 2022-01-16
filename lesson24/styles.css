@@ -176,6 +176,11 @@
   line-height: 50px;
   letter-spacing: -0.3125px;
 }
+@media screen and (max-width: 1399px) {
+  .headline__title {
+    margin-bottom: 24px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .headline__title {
     margin-top: 0;
@@ -714,6 +719,8 @@
   flex-direction: column;
   background-color: #FFFFFF;
   border-radius: 8px;
+  min-width: 262px;
+  min-height: 300px;
 }
 .audience__category:first-child {
   margin-top: 0;
@@ -722,8 +729,6 @@
   .audience__category {
     margin-top: 0;
     margin-right: 30px;
-    min-width: 262px;
-    min-height: 300px;
   }
   .audience__category:last-child {
     margin-right: 0;
@@ -731,6 +736,8 @@
 }
 .audience__category_image {
   margin: auto;
+  margin-top: 0;
+  margin-bottom: 22px;
 }
 .audience__category_image-caption {
   font-weight: 700;
