@@ -1151,7 +1151,7 @@
   .order {
     flex-direction: row;
     height: 441px;
-    padding: 73px 230px 72px 224px;
+    padding: 73px 230px 72px 230px;
   }
 }
 .order__illustration {
@@ -1176,7 +1176,7 @@
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
-  margin: 0;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
