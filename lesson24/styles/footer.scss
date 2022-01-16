@@ -130,7 +130,7 @@
         font-weight: bold;
         font-size: 22px;
         line-height: 28px;
-        color: #2B292D;
+        color: $text-color-black-main;
         margin: 0;
     }
 
@@ -172,7 +172,7 @@
     }
 
     &__item {
-        color: #2B292D;
+        color: $text-color-black-main;
         font-size: 14px;
         opacity: 0.6;
         text-decoration: none;

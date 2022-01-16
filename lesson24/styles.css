@@ -1,6 +1,6 @@
 .action-button {
   background-color: #3040c4;
-  color: #ffff;
+  color: #fff;
   width: 160px;
   height: 48px;
   font-size: 18px;
@@ -443,7 +443,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  color: #3142C6;
+  color: #3142C6 #3142C6;
   margin: 0;
   margin-left: 15px;
 }
@@ -569,7 +569,7 @@
   margin: 0;
   margin-top: 44px;
   padding: 30px 20px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
   border-bottom: 4px solid #0185d0;
 }
 .inbox__review_comment {
@@ -717,7 +717,7 @@
   padding: 22px 20px 33px 20px;
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-radius: 8px;
   min-width: 262px;
   min-height: 300px;
@@ -753,7 +753,7 @@
 
 .feedback {
   padding: 39px 15px 50px 15px;
-  border-bottom: 1px solid #E3E3E3;
+  border-bottom: 1px solid #e3e3e3;
   position: relative;
 }
 @media screen and (min-width: 1400px) {
@@ -969,7 +969,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  color: #3040C4;
+  color: #3040c4;
 }
 
 .hiring {
@@ -1018,7 +1018,7 @@
   width: 100%;
   background-color: #3040c4;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   font-size: 18px;
   line-height: 13px;
@@ -1067,13 +1067,13 @@
 .vacancy__hiring:hover {
   background-color: #3141c5;
   cursor: pointer;
-  color: #ffffff;
+  color: #fff;
 }
 .vacancy__hiring:hover .vacancy__title {
-  color: #ffffff;
+  color: #fff;
 }
 .vacancy__hiring:hover .vacancy__location {
-  color: #ffffff;
+  color: #fff;
   opacity: 1;
 }
 .vacancy__hiring:hover .vacancy__arrow-container {
@@ -1130,7 +1130,7 @@
 }
 @media screen and (min-width: 1400px) {
   .vacancy__arrow-container {
-    background-color: #ffffff;
+    background-color: #fff;
   }
 }
 .vacancy__arrow-rigth {
@@ -1151,7 +1151,7 @@
   .order {
     flex-direction: row;
     height: 441px;
-    padding: 73px 230px 72px 230px;
+    padding: 73px 230px 72px 232px;
   }
 }
 .order__illustration {
