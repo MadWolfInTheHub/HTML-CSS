@@ -22,7 +22,7 @@ html {
   display: flex;
 }
 
-.offer {
+.price-card {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
@@ -31,24 +31,24 @@ html {
   display: flex;
   flex-direction: column;
 }
-.offer:last-child {
+.price-card:last-child {
   margin-right: 0;
 }
-.offer__title {
+.price-card__title {
   margin: 0;
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
   text-align: center;
 }
-.offer__subtitle {
+.price-card__subtitle {
   margin: 0;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
-.offer__price {
+.price-card__price {
   margin: 0;
   display: flex;
   height: 105px;
@@ -57,41 +57,41 @@ html {
   font-size: 55px;
   line-height: 67px;
 }
-.offer__price_amount {
+.price-card__price_amount {
   margin: auto;
 }
-.offer__basic {
+.price-card__basic {
   background-color: #5BB189;
 }
-.offer__business {
+.price-card__business {
   background-color: #3A6BA5;
 }
-.offer__webshop {
+.price-card__webshop {
   background-color: #EC632A;
 }
-.offer__description {
+.price-card__description {
   margin: 40px 26px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
 }
-.offer__list {
+.price-card__options-list {
   margin: 0;
   padding: 0;
   list-style: none;
   font-weight: 300;
   line-height: 18px;
 }
-.offer__list-item {
+.price-card__options-list-item {
   height: 50px;
   display: flex;
   align-items: center;
 }
-.offer__list-item:nth-child(odd) {
+.price-card__options-list-item:nth-child(odd) {
   background: rgba(42, 52, 56, 0.5);
 }
-.offer__order-button {
+.price-card__order-btn {
   margin: auto;
   margin-top: 39px;
   width: 155px;
@@ -117,5 +117,7 @@ html {
   right: -18px;
   top: -18px;
 }
+
+/* hi */
 
 /*# sourceMappingURL=styles.css.map */
