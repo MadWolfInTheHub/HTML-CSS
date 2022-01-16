@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.pricelist {
+  padding: 115px 132px;
+  max-width: 1440px;
+  max-height: 1000px;
+  background-color: #000000;
+  display: flex;
+}
+
+.offer {
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+  padding-top: 33px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.offer:last-child {
+  margin-right: 0;
+}
+.offer__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+.offer__subtitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.offer__price {
+  margin: 0;
+  display: flex;
+  height: 105px;
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+}
+.offer__price_amount {
+  margin: auto;
+}
+.offer__basic {
+  background-color: #5BB189;
+}
+.offer__business {
+  background-color: #3A6BA5;
+}
+.offer__webshop {
+  background-color: #EC632A;
+}
+.offer__description {
+  margin: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.offer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 300;
+  line-height: 18px;
+}
+.offer__list-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.offer__list-item:nth-child(odd) {
+  background: rgba(42, 52, 56, 0.5);
+}
+.offer__order-button {
+  margin: auto;
+  margin-top: 39px;
+  width: 155px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon {
+  margin: 19px 22px;
+}
+
+.popular {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  right: -18px;
+  top: -18px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    
+
+}
+
+
+.pricelist {
+    padding: 115px 132px;
+    max-width: 1440px;
+    max-height: 1000px;
+    background-color: #000000;
+    display: flex;
+
+}
+
+.offer {
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    margin-right: 18px;
+    padding-top: 33px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__price {
+        margin: 0;
+        display: flex;
+        height: 105px;
+        margin-top: 33px;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+
+        &_amount {
+            margin: auto;
+        }
+    }
+
+    &__basic {
+        background-color: #5BB189;
+    }
+
+    &__business {
+        background-color: #3A6BA5;
+    }
+
+    &__webshop {
+        background-color: #EC632A;
+    }
+
+    &__description {
+        margin: 40px 26px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-weight: 300;
+        line-height: 18px;
+
+        &-item {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            
+            &:nth-child(odd) {
+                background: rgba(42, 52, 56, 0.5);
+            }
+        }
+    }
+
+    &__order-button {
+        margin: auto;
+        margin-top: 39px;
+        width: 155px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+
+.icon {
+    margin: 19px 22px;
+}
+
+.popular {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    right: -18px;
+    top: -18px;
+}
