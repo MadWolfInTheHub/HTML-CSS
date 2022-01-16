@@ -91,6 +91,7 @@
         &:hover {
             background-color: rgba(49, 65, 197, 1);
             cursor: pointer;
+            color: #ffffff;
             
             .vacancy__title {
                 color: #ffffff;
@@ -98,6 +99,7 @@
 
             .vacancy__location {
                 color: #ffffff;
+                opacity: 1;
             }
 
             .vacancy__arrow-container {
@@ -135,8 +137,6 @@
             margin-left: 25px;
             height: 29px;
             width: 408px;
-            
-            
         }
     
     }
@@ -165,5 +165,12 @@
         @include for-large-up {
             background-color: #ffffff;
         }
+    }
+    
+    &__arrow-rigth {
+        display: block;
+        width: 7px;
+        height: 12px;
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
     }
 }

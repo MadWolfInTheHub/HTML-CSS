@@ -1067,12 +1067,14 @@
 .vacancy__hiring:hover {
   background-color: #3141c5;
   cursor: pointer;
+  color: #ffffff;
 }
 .vacancy__hiring:hover .vacancy__title {
   color: #ffffff;
 }
 .vacancy__hiring:hover .vacancy__location {
   color: #ffffff;
+  opacity: 1;
 }
 .vacancy__hiring:hover .vacancy__arrow-container {
   background-color: #3141c5;
@@ -1131,6 +1133,12 @@
     background-color: #ffffff;
   }
 }
+.vacancy__arrow-rigth {
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+}
 
 .order {
   background-color: #F4F5F7;
@@ -1159,7 +1167,7 @@
 }
 @media screen and (min-width: 1400px) {
   .order__description {
-    margin: 33px 0 33px 122px;
+    margin: 0 0 0 122px;
   }
 }
 .order__title {
